@@ -45,6 +45,11 @@
             }
         }
         @media only screen and (max-width: 500px){
+            .resm{
+                display: none;
+            }
+        }
+        @media only screen and (max-width: 500px){
             .main{
             
                 margin-top: 30px;
@@ -71,6 +76,7 @@
             box-shadow: 5px 20px 50px #000;
             margin-left:20px;
             margin-top:20px;
+            
             
             
         }
@@ -153,7 +159,20 @@
         #chk:checked ~ .signup label{
             transform: scale(.6);
         }
-
+        .resm{
+            background-image: url("https://img.freepik.com/premium-photo/car-isolated-white-background-mercedes-cla-class-white-car-blank-clean-white-b-white-black_655090-718331.jpg");
+            mix-blend-mode: multiply;
+            background-position: center;
+            background-size: cover;
+            width: 680px;
+            height: 500px;
+            margin-top: 30px;
+            margin-left: 200px;
+        }
+        .esas{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+        }
     </style>
         <meta charset="8e"><div class="divayar"><h1 style="color: aliceblue;"><b class="textayar">Rentcars.  <table align="right">
             <tr>
@@ -166,6 +185,7 @@
     </div>
     </head> 
     <body bgcolor="0E3C54" >
+    <div class="esas">   
         <div class="main">
             <input type="checkbox" id="chk" aria-hidden="true">
 
@@ -188,6 +208,11 @@
                 </form>
             </div>
         </div>
+        <div class="resm">
+
+        </div>
+    </div>
+        
         
        
 
